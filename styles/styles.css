@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header styles  */
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    background-color: #562EFF;
+}
+.logo-title, .nav-title{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    margin: 20px;
+    color: #fff;
+}
+
+
+/* responsive styles  */
+@media screen and (max-width:576px) {
+    .logo-title, .nav-title{
+        flex-direction: column;
+        
+    }
+}
